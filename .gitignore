@@ -1,0 +1,21 @@
+# Objetos e bibliotecas
+*.o
+*.ko
+*.obj
+*.elf
+
+# Arquivos gerados pelo Kernel Build System
+*.mod.c
+modules.order
+Module.symvers
+.*.cmd
+.tmp_versions/
+
+# Executáveis (User space tools)
+produtor
+consumidor
+
+# Arquivos de sistema/IDE
+.DS_Store
+.vscode/
+*.swp
